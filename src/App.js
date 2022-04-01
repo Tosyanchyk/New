@@ -3,7 +3,7 @@ import Expenses from "./components/Expenses";
 export default function App() {
   // const para = document.createElement("p"); // how this works behind the scenes
   // para.textContent = "This is also visible!";
-  // document.getElementById("root").append(para);
+  // document.getElementById("root").append(para); //old comments of react features
   const expenses = [
     {
       id: "e1",
