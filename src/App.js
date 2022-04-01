@@ -1,6 +1,6 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
-export default function App() {
+export default function App() { // you can also write it this way, const (instead of keyword "function") App = () => {}
   // const para = document.createElement("p"); // how this works behind the scenes
   // para.textContent = "This is also visible!";
   // document.getElementById("root").append(para); //old comments of react features
