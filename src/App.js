@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 export default function App() { // you can also write it this way, const (instead of keyword "function") App = () => {}
   // const para = document.createElement("p"); // how this works behind the scenes
@@ -32,7 +33,7 @@ export default function App() { // you can also write it this way, const (instea
   ];
   return (
     <div>
-      <h2> Let 's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses}/>
     </div>
   );
